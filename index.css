@@ -1,0 +1,159 @@
+.topnav {
+    overflow: hidden;
+    background-color: #73b1ec;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: #000000
+  }
+  
+  .topnav a.active {
+    background-color: #5eb7da;
+    color: white;
+}
+#home {
+    height: 100vh;
+    background-image: url(Cover.jpg);
+    background-size: cover;
+    background-position: 0px 10px 0px 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    font-family:  Verdana,Geneva, Tahoma, sans-serif;
+}
+.first {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #5c6ac4;
+    letter-spacing: 1px;
+    font-size: 3rem;
+    margin: 0%;
+    position: absolute;
+    top: 200px;
+    left: 175px;
+}
+.second {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #5c6ac4;
+    font-size: 1.5rem;
+    margin: 0%;
+    position: absolute;
+    top: 275px;
+    left: 220px;
+}
+.row ::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.column {
+    float: left;
+    width: 40px;
+    padding: 5px;
+    position: relative;
+    left: 265px;
+}
+.column :hover {
+    transform: scale(1.2);
+    transform: translateY(-7%)
+}
+body {
+    background-color: #ffffff;
+}
+#about {
+    margin-left: 110px;
+    text-align: left;
+    font-size: 1.3rem;
+    letter-spacing: 1.5px;
+}
+h2 {
+    color: #5c6ac4;
+    font-size: 1.5rem;
+}
+#experience {
+    margin-left: 110px;
+    text-align: left;
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+}
+#education {
+    margin-left: 110px;
+    text-align: left;
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+}
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.table{
+    padding: 10px;
+    width: auto;
+    border-spacing: 40px;
+    font-size: 1.2rem;
+}
+#skills {
+    margin-left: 110px;
+    text-align: left;
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+}
+.tables{
+    padding: 10px;
+    width: auto;
+    border-spacing: 40px;
+}
+.footnav {
+    overflow: hidden;
+    background-color: #73b1ec;
+}  
+.footnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    width: 150px;
+    text-decoration: none;
+    font-size: 17px;
+    position: relative;
+    left: 170px;
+}
+.footnav a:hover {
+    background-color: #ddd;
+    color: #000000
+}
+.footnav a.active {
+    background-color: #5eb7da;
+    color: white;
+}
+#contact {
+    text-align: center;
+}
+.foot ::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.footer {
+    float: left;
+    width: 40px;
+    padding: 5px;
+    position: relative;
+    left: 530px;
+}
+.footer :hover {
+    transform: scale(1.2);
+    transform: translateY(-7%)
+}
